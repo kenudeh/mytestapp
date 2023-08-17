@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mytestapp/static/css/main.cd221c93.css",
+    "main.js": "/mytestapp/static/js/main.ed77faab.js",
+    "static/js/787.06977c1e.chunk.js": "/mytestapp/static/js/787.06977c1e.chunk.js",
+    "static/media/Hero.jpg": "/mytestapp/static/media/Hero.90f9f8a753da7e1a8373.jpg",
+    "static/media/background.jpg": "/mytestapp/static/media/background.1401c6f43c575e3f922d.jpg",
+    "static/media/AboutUs.jpg": "/mytestapp/static/media/AboutUs.13c0f7a93bd0cf38604a.jpg",
+    "static/media/post-construction-cleaning.jpg": "/mytestapp/static/media/post-construction-cleaning.1ddd8bf9e28f768e6852.jpg",
+    "static/media/home-cleaning.jpg": "/mytestapp/static/media/home-cleaning.be8c78830dd7c2c7f8b0.jpg",
+    "static/media/move-in-and-move-out.jpg": "/mytestapp/static/media/move-in-and-move-out.97e356551538affbccf8.jpg",
+    "static/media/office-cleaning.jpg": "/mytestapp/static/media/office-cleaning.36c6f629db72d40abd59.jpg",
+    "static/media/Extraclean.png": "/mytestapp/static/media/Extraclean.a1013264a948dae9ad4b.png",
+    "index.html": "/mytestapp/index.html",
+    "main.cd221c93.css.map": "/mytestapp/static/css/main.cd221c93.css.map",
+    "main.ed77faab.js.map": "/mytestapp/static/js/main.ed77faab.js.map",
+    "787.06977c1e.chunk.js.map": "/mytestapp/static/js/787.06977c1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd221c93.css",
+    "static/js/main.ed77faab.js"
+  ]
+}
