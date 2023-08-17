@@ -1,0 +1,194 @@
+
+.Information{
+	height: 30vh;
+	background-color: white;
+	display: flex;
+}
+
+.Information .Address{
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+}
+
+.Information .Address h3{
+	display: flex;
+	justify-content: center;
+	padding: 1vh 0vw 1vh 0vw;
+	font-size: 20px;
+	color: black;
+}
+
+.Information .Address p{
+	display: flex;
+	justify-content: center;
+	font-weight: normal;
+	font-size: 14px;
+	padding-top: 2vh;
+}
+
+.Information .Phone{
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	padding-bottom: 2vh;
+}
+
+.Information .Phone h3{
+	display: flex;
+	justify-content: center;
+	padding: 1vh 0vw 1vh 0vw;
+	font-size: 20px;
+	color: black;
+}
+
+.Information .Phone p{
+	display: flex;
+	justify-content: center;
+	font-weight: normal;
+	font-size: 14px;
+	padding-top: 2vh;
+}
+
+
+
+
+
+
+
+
+
+/*********MEDIA QUERY FOR TABLETS************/
+
+@media(max-width: 1007px){
+	.Information{
+		height: 30vh;
+		background-color: white;
+		display: flex;
+	}
+	
+	.Information .Address{
+		display: flex;
+		flex-direction: column;
+		width: 50vw;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid black;
+	}
+	
+	.Information .Address h3{
+		display: flex;
+		justify-content: center;
+		padding: 1vh 0vw 1vh 0vw;
+		font-size: 18px;
+		color: black;
+	}
+	
+	.Information .Address p{
+		display: flex;
+		justify-content: center;
+		font-weight: normal;
+		font-size: 12px;
+		padding-top: 2vh;
+	}
+	
+	.Information .Phone{
+		display: flex;
+		flex-direction: column;
+		width: 50vw;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid black;
+		
+	}
+	
+	.Information .Phone h3{
+		display: flex;
+		justify-content: center;
+		padding: 1vh 0vw 1vh 0vw;
+		font-size: 18px;
+		color: black;
+	}
+	
+	.Information .Phone p{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: normal;
+		font-size: 12px;
+		padding-top: 2vh;
+	}
+	
+}
+
+
+
+/*********MEDIA QUERY FOR MOBILE DEVICES************/
+
+@media(max-width: 640px){
+	
+	.Information{
+		height: 30vh;
+		background-color: white;
+		display: flex;
+	}
+	
+	.Information .Address{
+		display: flex;
+		flex-direction: column;
+		width: 50vw;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid black;
+	}
+	
+	.Information .Address h3{
+		display: flex;
+		justify-content: center;
+		padding: 1vh 0vw 1vh 0vw;
+		font-size: 13px;
+		color: black;
+	}
+	
+	.Information .Address p{
+		display: flex;
+		justify-content: center;
+		font-weight: normal;
+		font-size: 10px;
+		padding-top: 2vh;
+	}
+	
+	.Information .Phone{
+		display: flex;
+		flex-direction: column;
+		width: 50vw;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid black;
+		
+	}
+	
+	.Information .Phone h3{
+		display: flex;
+		justify-content: center;
+		padding: 1vh 0vw 1vh 0vw;
+		font-size: 13px;
+		color: black;
+	}
+	
+	.Information .Phone p{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: normal;
+		font-size: 10px;
+		padding-top: 2vh;
+	}
+	
+}

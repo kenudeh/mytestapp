@@ -1,0 +1,223 @@
+.WhyChoseUs{
+    height: 50vh;
+}
+
+.WhyChoseUs h2{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    height: 10vh;
+    color: white;
+	background-color: #050505ee;
+
+}
+
+.WhyChoseUs .Container{
+    height: 40vh;
+}
+
+.WhyChoseUs .Container .Wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    padding: 5vh 5vw 5vh 5vw;
+    height: 40vh;
+}
+
+
+.WhyChoseUs .Container .Wrapper .Charges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    border-radius: 10px;
+    background-color: rgba(20, 20, 197, 0.568);
+
+}
+
+.WhyChoseUs .Container .Wrapper .Charges h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 2vh;
+}
+
+
+.WhyChoseUs .Container .Wrapper .Experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(20, 20, 197, 0.568);
+    padding: 2vw;
+    border-radius: 10px;
+}
+
+
+.WhyChoseUs .Container .Wrapper .Experience h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 2vh;
+}
+
+
+
+
+.WhyChoseUs .Container .Wrapper .Quality{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(20, 20, 197, 0.568);
+    padding: 2vw;
+    border-radius: 10px;
+}
+
+.WhyChoseUs .Container .Wrapper .Quality h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 2vh;
+}
+
+
+
+/*Quick*/
+
+
+.WhyChoseUs .Container .Wrapper .Quick{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(20, 20, 197, 0.568);
+    padding: 2vw;
+    border-radius: 10px;
+}
+
+.WhyChoseUs .Container .Wrapper .Quick h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 2vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*********MEDIA QUERY FOR TABLETS************/
+
+@media(max-width: 1007px){
+
+    .WhyChoseUs{
+        height: 120vh;
+    }
+    
+    .WhyChoseUs h2{
+        font-size: 22px;
+        height: 10vh;
+       
+    }
+    
+    .WhyChoseUs .Container{
+        height: 110vh;
+    }
+    
+
+    .WhyChoseUs .Container .Wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;   
+        padding: 5vh 5vw;
+        height: 110vh;
+    }
+
+    .WhyChoseUs .Container .Wrapper .Charges h3{
+        font-size: 14px;
+    }
+    
+    .WhyChoseUs .Container .Wrapper .Experience h3{
+        font-size: 14px;
+    }
+
+    .WhyChoseUs .Container .Wrapper .Quality h3{
+        font-size: 14px;
+    }
+
+    .WhyChoseUs .Container .Wrapper .Quick h3{
+        font-size: 14px;
+    }
+	
+}
+
+
+
+/*********MEDIA QUERY FOR MOBILE DEVICES************/
+
+@media(max-width: 640px){
+    
+    .WhyChoseUs{
+        height: 120vh;
+    }
+    
+    .WhyChoseUs h2{
+        font-size: 18px;
+        height: 10vh;
+    }
+    
+    .WhyChoseUs .Container{
+        height: 110vh;
+    }
+    
+
+    .WhyChoseUs .Container .Wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;   
+        padding: 5vh 5vw;
+        height: 110vh;
+    }
+    
+
+    .WhyChoseUs .Container .Wrapper .Charges h3{
+        font-size: 12px;
+    }
+    
+    .WhyChoseUs .Container .Wrapper .Experience h3{
+        font-size: 12px;
+    }
+
+    .WhyChoseUs .Container .Wrapper .Quality h3{
+        font-size: 12px;
+    }
+
+    .WhyChoseUs .Container .Wrapper .Quick h3{
+        font-size: 12px;
+    }
+	
+}
+
